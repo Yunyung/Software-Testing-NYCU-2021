@@ -2,8 +2,8 @@
 
 ## About this Repository
 * This is the repository for the labs in NYCU CS Software testing Spring 2021 class.
-* The testing framework we use in labs is **Junit 5**.
-* See more [Software Testing](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=109&Sem=2&CrsNo=5259) course information here.
+* The testing framework we use in labs is **JUnit 5**.
+* See more [Software Testing](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=109&Sem=2&CrsNo=5259) course information.
 ## How to Use This Repository
 * Lab instruction is in [here](https://github.com/iasthc/NYCU-Software-Testing-2021).
 * All codes and files for each lab are placed in corresponding folders.
