@@ -9,9 +9,9 @@
 * All codes and files for each lab are placed in corresponding folders.
 
 ## Lab
-* Lab 0: Overview 
-* Lab 1: Basic Unit Testing 
-* Lab 2: Advanced Unit Testing
+* [Lab 0: Overview](https://docs.google.com/presentation/d/1WVK-TsvQ5f8olP7W1IuccaMFKDHiN1K8RDgCsA_h_Iw/edit#slide=id.gc30df76373_2_0) 
+* [Lab 1: Basic Unit Testing](https://docs.google.com/presentation/d/1q7dzQnb7pkvxZAGmf5MuNIDczFPW8bG-9UiUj-2PyyQ/edit) 
+* [Lab 2: Advanced Unit Testing](https://docs.google.com/presentation/d/1r1nXqYkO_PfUxu9YHVjSdmoTndUk-EVPsQRAMWvVIBg/edit)
 * Lab 3: Continuous Integration 
 * Lab 4: Advanced Continuous Integration
 * Lab 5: Web Applications Testing
