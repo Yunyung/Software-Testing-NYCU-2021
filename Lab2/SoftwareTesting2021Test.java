@@ -101,10 +101,14 @@ class SoftwareTesting2021Test {
     @Test
     public void test_e() {
         String expected_result = "Thank you";
-        paypalService mockPaypalService = mock(paypalService.class);
+        fakePaypalService m_fakePaypalService = new fakePaypalService();
 
-        when(mockPaypalService.doDonate()).thenReturn("successed");
+        assertEquals(expected_result, softwareTesting2021.donate(m_fakePaypalService));
+    }
 
-        assertEquals(expected_result, softwareTesting2021.donate(mockPaypalService));
+    public class fakePaypalService implements paypalService {
+        public String doDonate() {
+            return "successed";
+        }
     }
 }
