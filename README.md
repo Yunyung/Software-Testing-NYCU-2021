@@ -12,8 +12,8 @@
 * [Lab 0: Overview](https://docs.google.com/presentation/d/1WVK-TsvQ5f8olP7W1IuccaMFKDHiN1K8RDgCsA_h_Iw/edit#slide=id.gc30df76373_2_0) 
 * [Lab 1: Basic Unit Testing](https://docs.google.com/presentation/d/1q7dzQnb7pkvxZAGmf5MuNIDczFPW8bG-9UiUj-2PyyQ/edit) 
 * [Lab 2: Advanced Unit Testing](https://docs.google.com/presentation/d/1r1nXqYkO_PfUxu9YHVjSdmoTndUk-EVPsQRAMWvVIBg/edit)
-* Lab 3: Continuous Integration 
-* Lab 4: CI/CD with Github Action
+* [Lab 3: Continuous Integration](https://docs.google.com/presentation/d/1nCeM_v2-DiYGjK8sqL4o4LhdaGvAY-AaUDhDTkLGoT8/edit) 
+* [Lab 4: CI/CD with Github Action](https://drive.google.com/file/d/1PAZYSFuAbSUWNs3LDwnZgm5eDWj9p8Vt/view)
 * Lab 5: Web Applications Testing
 * Lab 6: Control Flow Graph
 * Lab 7: Behavior-Driven Development
