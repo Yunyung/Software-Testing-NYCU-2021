@@ -1,0 +1,94 @@
+# This workflow will build a Java project with Gradle
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
+
+name: Java CI with Gradle
+
+on:
+  push:
+    branches: [ master ]
+    tags:
+      - v*.*.*
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  Compile:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo Hello, world!
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+      - name: Compile with Gradle
+        run: ./gradlew compileJava
+      - name: print file
+        run: ls ./
+      - uses: actions/cache@v2
+        with:
+          path: ./**
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+  Test:
+    needs: Compile
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/cache@v2
+        with:
+          path: ./**
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+      - name: Test with Gradle
+        run: ./gradlew test
+      - uses: actions/upload-artifact@v2
+        with:
+          name: testReport
+          path: build/reports
+
+  Assemble:
+    needs: [Compile, Test]
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/cache@v2
+        with:
+          path: ./**
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+      - name: Assemble with Gradle
+        run: ./gradlew assemble
+      - uses: actions/upload-artifact@v2
+        with:
+          name: assembleJar
+          path: build/libs/*.jar
+
+  Release:
+    needs: [Compile, Test, Assemble]
+    runs-on: ubuntu-latest
+
+    # automate release jar file when push is a tag pushed events
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: assembleJar
+      - name: print current working directory
+        run: ls ./
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./*.jar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
