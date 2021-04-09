@@ -15,7 +15,7 @@
 * [Lab 2: Advanced Unit Testing](https://docs.google.com/presentation/d/1r1nXqYkO_PfUxu9YHVjSdmoTndUk-EVPsQRAMWvVIBg/edit)
 * [Lab 3: Continuous Integration](https://docs.google.com/presentation/d/1nCeM_v2-DiYGjK8sqL4o4LhdaGvAY-AaUDhDTkLGoT8/edit) 
 * [Lab 4: CI/CD with Github Action](https://drive.google.com/file/d/1PAZYSFuAbSUWNs3LDwnZgm5eDWj9p8Vt/view)
-* Lab 5: Web Applications Testing
+* [Lab 5: Web Applications Testing](https://docs.google.com/presentation/d/102Y0TxeRAEMtixk2xn45elrbkVlh_K3jgd-7ZAL_DWc/edit#slide=id.gcc44612f25_0_586)
 * Lab 6: Control Flow Graph
 * Lab 7: Behavior-Driven Development
 * Lab 8: Program Security Detect 
