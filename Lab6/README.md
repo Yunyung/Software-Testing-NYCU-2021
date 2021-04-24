@@ -16,8 +16,11 @@
 
 # LLVM
 sudo apt install llvm
-## graphviz tool to generate graph
+# graphviz tool to generate graph
 sudo apt install graphviz
+
+# Install LLVM C/C++ frontend (It's weird why it's needed, although we have installed llvm)
+sudo apt install clang
 ```
 
 ### Generate
