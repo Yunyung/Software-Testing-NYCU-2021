@@ -1,4 +1,4 @@
-# Lab5 - Control Flow Graph
+# Lab6 - Control Flow Graph
 
 ## Lab Requirements
 - Gernerate the call graph and control flow graph for Lab_6.c using LLVM tool
