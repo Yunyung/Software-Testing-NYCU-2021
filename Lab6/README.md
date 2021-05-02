@@ -28,7 +28,7 @@ Frontend
 ```
 # Generate Lab_6.ll file 
 # Compile to LLVM IR
-lang -S -emit-llvm ./Lab_6.c
+clang -S -emit-llvm ./Lab_6.c
 ```
 
 
