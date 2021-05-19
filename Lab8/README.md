@@ -24,7 +24,7 @@ export CC=~/AFLplusplus/afl-clang-fast
 # alf C++ compiler
 export CXX=~/AFLplusplus/afl-clang-fast++
 # Use ASAN (Address SANitizer)
-export AFL_USE_UBSAN=1 
+export AFL_USE_ASAN=1
 
 make
 
