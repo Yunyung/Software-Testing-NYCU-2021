@@ -18,9 +18,8 @@
 * [Lab 5: Web Applications Testing](https://docs.google.com/presentation/d/102Y0TxeRAEMtixk2xn45elrbkVlh_K3jgd-7ZAL_DWc/edit#slide=id.gcc44612f25_0_586)
 * [Lab 6: Control Flow Graph](https://docs.google.com/presentation/d/1YXJJiwb6pgOgM3Zm3y0WLgujHJD7vXeI4C9lIr-feD0)
 * [Lab 7: Valgrind & Sanitizer](https://docs.google.com/presentation/d/1_ZxHpCQiKs_xZd0cAWcHBJ9WeEbcmlQziTUwa4XEnl4)
-* Lab 8: Program Security Detect 
-* Lab 9: Fuzz Testing 
-* Lab 10: Symbolic Execution 
+* [Lab 8: Fuzz Testing](https://docs.google.com/presentation/d/15hy8xgBW-2MOAxQ7tL6uxS_3gRJnYqCSXm9JUOnNqgs) 
+* Lab 9: Symbolic Execution
 
 ## Homework
 * [HW 2: Input Space Partitioning for BoundedQueue](https://github.com/Yunyung/Software-Testing-NYCU-2021/tree/main/Homework/HW2)
