@@ -5,7 +5,7 @@ Apply symolic execution tools, Angr, to hack the password from a binary file, gi
 
 ## What you can learn
 - Understand what's symblic execution
-- Learn how to use Angr, an symolic exection tool, to crack the password or some useful infomation from a binary file 
+- Learn how to use Angr, a symolic exection tool, to crack the password or some useful infomation from a binary file 
 
 ## Step by Step 
 ### Installation
