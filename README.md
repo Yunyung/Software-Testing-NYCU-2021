@@ -19,7 +19,7 @@
 * [Lab 6: Control Flow Graph](https://docs.google.com/presentation/d/1YXJJiwb6pgOgM3Zm3y0WLgujHJD7vXeI4C9lIr-feD0)
 * [Lab 7: Valgrind & Sanitizer](https://docs.google.com/presentation/d/1_ZxHpCQiKs_xZd0cAWcHBJ9WeEbcmlQziTUwa4XEnl4)
 * [Lab 8: Fuzz Testing](https://docs.google.com/presentation/d/15hy8xgBW-2MOAxQ7tL6uxS_3gRJnYqCSXm9JUOnNqgs) 
-* Lab 9: Symbolic Execution
+* [Lab 9: Symbolic Execution](https://docs.google.com/presentation/d/14BeW6NeRKGXhjyuTOuHoAP6FRq-yEWrPjRDcX1juOeM)
 
 ## Homework
 * [HW 2: Input Space Partitioning for BoundedQueue](https://github.com/Yunyung/Software-Testing-NYCU-2021/tree/main/Homework/HW2)
