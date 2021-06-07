@@ -22,5 +22,7 @@
 * [Lab 9: Symbolic Execution](https://docs.google.com/presentation/d/14BeW6NeRKGXhjyuTOuHoAP6FRq-yEWrPjRDcX1juOeM)
 
 ## Homework
+* [HW 1: Faulty Programs with Faults and Failures](https://github.com/Yunyung/Software-Testing-NYCU-2021/tree/main/Homework/HW1)
 * [HW 2: Input Space Partitioning for BoundedQueue](https://github.com/Yunyung/Software-Testing-NYCU-2021/tree/main/Homework/HW2)
 * [HW 3: Graph Coverage testing for Stutter](https://github.com/Yunyung/Software-Testing-NYCU-2021/tree/main/Homework/HW3)
+* [HW 4: Mutation Based Testing](https://github.com/Yunyung/Software-Testing-NYCU-2021/tree/main/Homework/HW4)
